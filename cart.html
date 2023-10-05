@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Seu Carrinho </title>
+    </head>
+    <body>
+      <head>
+        <div class="topnav">
+                <a class="active" href="index.html">Home</a>
+                <a href="about.html"> Quem somos </a>
+                <a href="contact.html"> Fale Conosco </a>
+                <a href="place.html"> Nossas Lojas </a>
+                <a href="cart.html" class="cart"> Meu Carrinho</a>
+                <div class="search-container">
+                    <form>
+                        <input type="text">
+                        <button type="submit">Buscar</button>
+                    </form>
+                </div>
+        </div>
+      </head>
+        <br>
+        <br>
+        <div class="page-title">Seu Carrinho </div>
+           <main>
+            <div class="content">
+                <section>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Produtos</th>
+                                <th>Preço</th>
+                                <th>Quantidade</th>
+                                <th>Total</th>
+                                <th>-</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <td><img src='soap.png' style="width:40px; height:40px"></td>
+                            <td>Sabonete UltraCare 90g</td>
+                            <td>R$25,00</td>
+                            <td><div class="qty">
+                                <button>-</button>
+                                <span>2</span>
+                                <button>+</button>
+                            </div></td>
+                            <td>R$50,00</td>
+                            <td><button class="remove"><i class="bx bx-x"></i></button></td>
+                            <br>
+                            </tbody>
+                            <tbody>
+                            <td><img src='cream.png' style="width:40px; height:40px"></td>
+                            <td> Hidratante Labs Form </td>
+                            <td>R$45,00</td>
+                            <td><div class="qty">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div></td>
+                            <td>R$45,00</td>
+                            <td><button class="remove"><i class="bx bx-x"></i></button></td>
+                        </tbody>
+                    </table>
+                </section>
+                <aside>
+                    <div class="box">
+                        <header>Resumo da Compra</header>
+                        <div class="info">
+                            <div><span>Sub-total</span><span>R$95,00</span></div>
+                            <div><span>Frete</span><span>Gratuito</span></div>
+                            <div><button>Adicionar Cupom de Desconto <i class='bx bxs-chevron-right' ></i> </button></div>
+                        </div>
+                        <footer><span>Total</span>
+                        <span>R$95,00</span></footer>
+                    </div>
+                    <button>Finalizar Compra</button>
+                </aside>
+            </div>
+        </main>
+    </body>
+</html>
