@@ -1,0 +1,25 @@
+a {
+    display: flexbox;
+    background-color: blue;
+    text-align: center;
+    padding: 14px 14px;
+    list-style-type: none;
+    overflow: hidden;
+    text-decoration-color: azure ;
+    float: float;
+
+
+}
+.search-container {
+    display: flexbox;
+    float: right;
+}
+
+}
+
+button {
+    background-color: blue;
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
